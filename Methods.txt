@@ -1,0 +1,27 @@
+--> What is Methods 
+JavaScript Methods: A JavaScript method is a property of an object that contains a function 
+definition. Methods are functions stored as object properties. Object method can be accessed 
+with the following
+** Syntax 
+function func(a, b) {
+var sum = a + b;
+return sum;
+}
+console.log(func(1, 2));
+-> Features:
+Actions that can be performed on objects are what we term JavaScript methods.
+The objects can also be called without using parenthesis.
+This refers to the owner object in a method.
+
+
+A function can pass the data that is operated and may return the data.
+The method operates the data contained in a Class.
+Data passed to a function is explicit.	
+A method implicitly passes the object on which it was called.
+A function lives on its own.	
+A method is a function associated with an object property.
+A function can be called directly by its name	 
+A method consists of a code that can be called by the name of its object and its method name using dot notation or square bracket notation.
+Functions are helpful because it increases the reusability of the code.	
+Javascript includes some in-built methods also for example -: parseInt() Method
+The () Operator is used to Invoke the Function	

@@ -1,0 +1,42 @@
+--> Variable
+
+-> what are variables?
+Variables are containers for storing data (storing data values).
+In this example, x, y, and z, are variables, declared with the var keyword:
+
+** Example
+var x = 5;
+var y = 6;
+var z = x + y;
+
+-> When to Use JavaScript var?
+Always declare JavaScript variables with var,let, orconst.
+The var keyword is used in all JavaScript code from 1995 to 2015.
+The let and const keywords were added to JavaScript in 2015.
+If you want your code to run in older browsers, you must use var.
+
+-> Datatype 
+In Javascript, there are five basic, or primitive, types of data. The five most basic types 
+of data are strings, numbers, booleans, undefined, and null. 
+
+
+->When to Use JavaScript const?
+If you want a general rule: always declare variables with const.
+If you think the value of the variable can change, use let.
+In this example, price1, price2, and total, are variables:
+
+** Example
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+
+-> JavaScript Identifiers
+All JavaScript variables must be identified with unique names.
+These unique names are called identifiers.
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+The general rules for constructing names for variables (unique identifiers) are:
+Names can contain letters, digits, underscores, and dollar signs.
+Names must begin with a letter.
+Names can also begin with $ and _ (but we will not use it in this tutorial).
+Names are case sensitive (y and Y are different variables).
+Reserved words (like JavaScript keywords) cannot be used as names.
